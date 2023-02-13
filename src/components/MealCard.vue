@@ -11,7 +11,7 @@
     <div class="meal_paragraph">
             <p class="sub" > {{meal.strInstructions.substring(0,50)}}</p>
             <p class="block"> {{meal.strInstructions}} </p>
-            <button @click="checkBox()" id="btn">View More</button>            
+                    
     </div>   
 </div>
 
